@@ -180,6 +180,21 @@
 		});
 
 
+		
+		$('.galeria').owlCarousel({
+		    dots:true,
+		    margin:30,
+		    smartSpeed:250,
+		    responsiveRefreshRate:0,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		       
+		    }
+		});
+
+
 
 		/* Client Carousel */
 
